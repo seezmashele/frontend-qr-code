@@ -2,8 +2,8 @@ import qrCodeImage from "/image-qr-code.png"
 
 function App() {
   return (
-    <div className="w-full min-h-screen">
-      <div className="rounded-2xl shadow-xl bg-white w-[18.5rem] p-4 mx-auto mt-24 flex flex-col font_outfit">
+    <div className="w-full">
+      <div className="rounded-2xl shadow-xl bg-white w-[18.5rem] p-4 mx-auto my-24 flex flex-col font_outfit">
         <img
           src={qrCodeImage}
           className="w-full rounded-lg mx-auto object-contain"
