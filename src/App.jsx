@@ -6,7 +6,8 @@ function App() {
       <div className="rounded-2xl shadow-xl bg-white w-[18.5rem] p-4 mx-auto my-24 flex flex-col font_outfit">
         <img
           src={qrCodeImage}
-          className="w-full rounded-lg mx-auto object-contain"
+          draggable="false"
+          className="w-full rounded-lg mx-auto object-contain select-none"
           alt="QR Code Image"
         />
         <h3 className="font-bold mt-6 w-full leading-snug">
