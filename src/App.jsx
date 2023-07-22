@@ -7,7 +7,7 @@ function App() {
         <img
           src={qrCodeImage}
           className="w-full rounded-lg mx-auto object-contain"
-          alt="React logo"
+          alt="QR Code Image"
         />
         <h3 className="font-bold mt-6 w-full leading-snug">
           Improve your front-end skills by building projects
